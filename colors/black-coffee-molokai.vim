@@ -11,31 +11,9 @@ let &t_ZH="\e[3m"
 let &t_ZR="\e[23m"
 
 
-hi Statement       guifg=#F92672               gui=bold
-hi StatusLine      guifg=#455354 guibg=fg
-hi StatusLineNC    guifg=#808080 guibg=#080808
-hi StorageClass    guifg=#FD971F               gui=italic
-hi Structure       guifg=#66D9EF
-hi Tag             guifg=#F92672               gui=italic
-hi Title           guifg=#ef5939
-hi Todo            guifg=#FFFFFF guibg=bg      gui=bold
-
-hi Typedef         guifg=#66D9EF
-hi Type            guifg=#66D9EF               gui=none
-hi Underlined      guifg=#808080               gui=underline
-
-hi VertSplit       guifg=#808080 guibg=#080808 gui=bold
-hi VisualNOS                     guibg=#403D3D
-hi Visual                        guibg=#403D3D
-hi WarningMsg      guifg=#FFFFFF guibg=#333333 gui=bold
-hi WildMenu        guifg=#66D9EF guibg=#000000
-
-hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
-hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
-
 " Support for 256-color terminal
 if &t_Co > 255
-  hi Normal       ctermfg=249 ctermbg=232
+  hi Normal       ctermfg=255 ctermbg=232
   hi NonText      ctermfg=232 ctermbg=232
   hi CursorLine               ctermbg=232
   hi CursorLineNr   ctermfg=232         cterm=bold,italic
@@ -48,7 +26,7 @@ if &t_Co > 255
   hi Cursor          ctermfg=234 ctermbg=253
   hi Debug           ctermfg=225               cterm=bold
   hi Define          ctermfg=161  cterm=italic
-  hi Delimiter       ctermfg=241
+  hi Delimiter       ctermfg=193
 
   hi DiffAdd                     ctermbg=24
   hi DiffChange      ctermfg=181 ctermbg=239
@@ -62,15 +40,16 @@ if &t_Co > 255
   hi Float           ctermfg=135
   hi FoldColumn      ctermfg=67    ctermbg=16
   hi Folded          ctermfg=67    ctermbg=16
-  hi Function        ctermfg=086
-  hi Identifier      ctermfg=048               cterm=italic,bold
-  hi Ignore          ctermfg=244   ctermbg=234
+
+  hi Function        ctermfg=087   cterm=italic
+  hi Identifier      ctermfg=048   cterm=italic,bold
+  hi Ignore          ctermfg=193
   hi IncSearch       ctermfg=193   ctermbg=16
 
   hi keyword         ctermfg=200               cterm=italic
   hi Label           ctermfg=093               cterm=none
   hi Macro           ctermfg=193
-  hi SpecialKey      ctermfg=161 cterm=italic,bold
+  hi SpecialKey      ctermfg=161  cterm=italic,bold
 
   hi MatchParen      ctermfg=233  ctermbg=208 cterm=bold
   hi ModeMsg         ctermfg=229
@@ -111,7 +90,7 @@ if &t_Co > 255
 
   hi Typedef         ctermfg=161                cterm=italic,bold
   hi Type            ctermfg=81                cterm=italic
-  hi Underlined      ctermfg=244               cterm=underline
+  hi Underlined      ctermfg=193              cterm=italic,underline
 
   hi VertSplit       ctermfg=244 ctermbg=234   cterm=bold
   hi VisualNOS                   ctermbg=238
