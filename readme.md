@@ -15,6 +15,5 @@ Se dé algum problema, basta submeter uma Issue aqui pro seu tio Caio Cutrim, be
 ![Screenshot1](screenshot1.png)
 ![Screenshot2](screenshot1.png)
 
+Obs.: O tema não tem suporte para o GVIM.
 
-Obs.: O tema não tem suporte para gvim, seja hackudo e uso a PORRA DE UM TERMINAL NESSE CARALEO. :3
-Obs.: Perdoe a PORRA dos palavrões. <3
