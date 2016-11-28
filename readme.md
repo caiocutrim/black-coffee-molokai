@@ -1,11 +1,10 @@
 # Hello VIMERS
-Olha o que o tio de vocês fez para o vim, espero que gostem
 Para usar este tema basta cloná-lo no seu diretório .vim que fica na home do sistema operacional
 e depois adicionar no .vimrc que igualmente na home com o seguinte trecho
 ```vim
 # No seu .vimrc ou configuração padrão
-colorscheme 'black-coffee-molokai'
-
+colorscheme black-coffee-molokai
+# Sem aspas
 ```
 Se dé algum problema, basta submeter uma Issue aqui pro seu tio Caio Cutrim, beleza?
 
